@@ -23,9 +23,33 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/all.css",
+              "src/assets/css/elegant-font-icons.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/jquery.animatedheadline.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/owl.carousel.css",
+              "src/assets/css/main.css"
+
+             
+              
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.animatedheadline.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/ajax-contact.js",
+              "src/assets/js/main.js"
+
+            
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +121,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "628818fd-7b3e-4046-a979-8d7e6ac89d81"
   }
 }
